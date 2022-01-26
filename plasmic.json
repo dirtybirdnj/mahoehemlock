@@ -1,0 +1,425 @@
+{
+  "platform": "nextjs",
+  "code": {
+    "lang": "js",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+  },
+  "images": {
+    "scheme": "public-files",
+    "publicDir": "../public",
+    "publicUrlPrefix": "/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "seaQhLVS4bbjiGvJJrRwyL",
+      "projectApiToken": "nPw276qGsy9kISQCHrcRrsj3Y9Yva9TMyYKNUpoOMOHgRj1A51qOC6LMB2185QlA52K87n32oQJHSi5be9w",
+      "projectName": "LIBRARY Plasmic Color + Type",
+      "version": "15.0.3",
+      "cssFilePath": "plasmic/library_plasmic_color_type/plasmic_library_plasmic_color_type.module.css",
+      "components": [],
+      "icons": [],
+      "images": [],
+      "indirect": true,
+      "codeComponents": []
+    },
+    {
+      "projectId": "jtTxUSUaYyDYVq5FUSGgTb",
+      "projectApiToken": "ikFh2sDHXU2FXB8jfJdEbkDKoTCGRQ2sPjfJzaH3R4IpOIsUZ0hceHXiNqbWTT6zkUhLq5OsYstjTsJF2EA",
+      "projectName": "Mahoe Hemlock",
+      "version": "latest",
+      "cssFilePath": "plasmic/mahoe_hemlock/plasmic_mahoe_hemlock.module.css",
+      "components": [
+        {
+          "id": "PQVUMvqrmvt",
+          "name": "Home",
+          "type": "managed",
+          "projectId": "jtTxUSUaYyDYVq5FUSGgTb",
+          "renderModuleFilePath": "plasmic/mahoe_hemlock/PlasmicHome.jsx",
+          "importSpec": {
+            "modulePath": "../pages/index.jsx"
+          },
+          "cssFilePath": "plasmic/mahoe_hemlock/PlasmicHome.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "OFcEsEPKVSy",
+          "name": "Header",
+          "type": "managed",
+          "projectId": "jtTxUSUaYyDYVq5FUSGgTb",
+          "renderModuleFilePath": "plasmic/mahoe_hemlock/PlasmicHeader.jsx",
+          "importSpec": {
+            "modulePath": "Header.jsx"
+          },
+          "cssFilePath": "plasmic/mahoe_hemlock/PlasmicHeader.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "rFX_TWDAZit",
+          "name": "Footer",
+          "type": "managed",
+          "projectId": "jtTxUSUaYyDYVq5FUSGgTb",
+          "renderModuleFilePath": "plasmic/mahoe_hemlock/PlasmicFooter.jsx",
+          "importSpec": {
+            "modulePath": "Footer.jsx"
+          },
+          "cssFilePath": "plasmic/mahoe_hemlock/PlasmicFooter.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "k6aYOWxTwdr",
+          "name": "FeatureCard",
+          "type": "managed",
+          "projectId": "jtTxUSUaYyDYVq5FUSGgTb",
+          "renderModuleFilePath": "plasmic/mahoe_hemlock/PlasmicFeatureCard.jsx",
+          "importSpec": {
+            "modulePath": "FeatureCard.jsx"
+          },
+          "cssFilePath": "plasmic/mahoe_hemlock/PlasmicFeatureCard.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "vJxynRdWnLq",
+          "name": "HomeCta",
+          "type": "managed",
+          "projectId": "jtTxUSUaYyDYVq5FUSGgTb",
+          "renderModuleFilePath": "plasmic/mahoe_hemlock/PlasmicHomeCta.jsx",
+          "importSpec": {
+            "modulePath": "HomeCta.jsx"
+          },
+          "cssFilePath": "plasmic/mahoe_hemlock/PlasmicHomeCta.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "GGv8Rbbb-eh",
+          "name": "IconLink",
+          "type": "managed",
+          "projectId": "jtTxUSUaYyDYVq5FUSGgTb",
+          "renderModuleFilePath": "plasmic/mahoe_hemlock/PlasmicIconLink.jsx",
+          "importSpec": {
+            "modulePath": "IconLink.jsx"
+          },
+          "cssFilePath": "plasmic/mahoe_hemlock/PlasmicIconLink.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "tAmnGGVvVuAO",
+          "name": "Testimonial",
+          "type": "managed",
+          "projectId": "jtTxUSUaYyDYVq5FUSGgTb",
+          "renderModuleFilePath": "plasmic/mahoe_hemlock/PlasmicTestimonial.jsx",
+          "importSpec": {
+            "modulePath": "Testimonial.jsx"
+          },
+          "cssFilePath": "plasmic/mahoe_hemlock/PlasmicTestimonial.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "V4ez3nQHtN4p",
+          "name": "Avatar",
+          "type": "managed",
+          "projectId": "jtTxUSUaYyDYVq5FUSGgTb",
+          "renderModuleFilePath": "plasmic/mahoe_hemlock/PlasmicAvatar.jsx",
+          "importSpec": {
+            "modulePath": "Avatar.jsx"
+          },
+          "cssFilePath": "plasmic/mahoe_hemlock/PlasmicAvatar.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "giddY8-jZWpI",
+          "name": "Pricing",
+          "type": "managed",
+          "projectId": "jtTxUSUaYyDYVq5FUSGgTb",
+          "renderModuleFilePath": "plasmic/mahoe_hemlock/PlasmicPricing.jsx",
+          "importSpec": {
+            "modulePath": "../pages/pricing.jsx"
+          },
+          "cssFilePath": "plasmic/mahoe_hemlock/PlasmicPricing.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "UF7gLi3kV-rg",
+          "name": "BaseCard",
+          "type": "managed",
+          "projectId": "jtTxUSUaYyDYVq5FUSGgTb",
+          "renderModuleFilePath": "plasmic/mahoe_hemlock/PlasmicBaseCard.jsx",
+          "importSpec": {
+            "modulePath": "BaseCard.jsx"
+          },
+          "cssFilePath": "plasmic/mahoe_hemlock/PlasmicBaseCard.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "NpAgdY2U3jXa",
+          "name": "Plan",
+          "type": "managed",
+          "projectId": "jtTxUSUaYyDYVq5FUSGgTb",
+          "renderModuleFilePath": "plasmic/mahoe_hemlock/PlasmicPlan.jsx",
+          "importSpec": {
+            "modulePath": "Plan.jsx"
+          },
+          "cssFilePath": "plasmic/mahoe_hemlock/PlasmicPlan.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "1LUbFXHukfqp",
+          "name": "Bullet",
+          "type": "managed",
+          "projectId": "jtTxUSUaYyDYVq5FUSGgTb",
+          "renderModuleFilePath": "plasmic/mahoe_hemlock/PlasmicBullet.jsx",
+          "importSpec": {
+            "modulePath": "Bullet.jsx"
+          },
+          "cssFilePath": "plasmic/mahoe_hemlock/PlasmicBullet.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "Km9rBF8KY3yJ",
+          "name": "Faq",
+          "type": "managed",
+          "projectId": "jtTxUSUaYyDYVq5FUSGgTb",
+          "renderModuleFilePath": "plasmic/mahoe_hemlock/PlasmicFaq.jsx",
+          "importSpec": {
+            "modulePath": "Faq.jsx"
+          },
+          "cssFilePath": "plasmic/mahoe_hemlock/PlasmicFaq.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "KQ0hdguFulQL",
+          "name": "Features",
+          "type": "managed",
+          "projectId": "jtTxUSUaYyDYVq5FUSGgTb",
+          "renderModuleFilePath": "plasmic/mahoe_hemlock/PlasmicFeatures.jsx",
+          "importSpec": {
+            "modulePath": "../pages/features.jsx"
+          },
+          "cssFilePath": "plasmic/mahoe_hemlock/PlasmicFeatures.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "NrFsSA9C4dbE",
+          "name": "Section",
+          "type": "managed",
+          "projectId": "jtTxUSUaYyDYVq5FUSGgTb",
+          "renderModuleFilePath": "plasmic/mahoe_hemlock/PlasmicSection.jsx",
+          "importSpec": {
+            "modulePath": "Section.jsx"
+          },
+          "cssFilePath": "plasmic/mahoe_hemlock/PlasmicSection.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        },
+        {
+          "id": "2kkmkSfTwtyI",
+          "name": "Button",
+          "type": "managed",
+          "projectId": "jtTxUSUaYyDYVq5FUSGgTb",
+          "renderModuleFilePath": "plasmic/mahoe_hemlock/PlasmicButton.jsx",
+          "importSpec": {
+            "modulePath": "Button.jsx"
+          },
+          "cssFilePath": "plasmic/mahoe_hemlock/PlasmicButton.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "button"
+        },
+        {
+          "id": "xATQM3R6S2Gi",
+          "name": "TextInput",
+          "type": "managed",
+          "projectId": "jtTxUSUaYyDYVq5FUSGgTb",
+          "renderModuleFilePath": "plasmic/mahoe_hemlock/PlasmicTextInput.jsx",
+          "importSpec": {
+            "modulePath": "TextInput.jsx"
+          },
+          "cssFilePath": "plasmic/mahoe_hemlock/PlasmicTextInput.module.css",
+          "scheme": "blackbox",
+          "componentType": "component",
+          "plumeType": "text-input"
+        }
+      ],
+      "icons": [
+        {
+          "id": "v_i9MOJJ0FWn",
+          "name": "TwitterIconIcon",
+          "moduleFilePath": "plasmic/mahoe_hemlock/icons/PlasmicIcon__TwitterIcon.jsx"
+        },
+        {
+          "id": "qqc7R0RN4US8",
+          "name": "GithubIconIcon",
+          "moduleFilePath": "plasmic/mahoe_hemlock/icons/PlasmicIcon__GithubIcon.jsx"
+        },
+        {
+          "id": "aLiPYmYFynex",
+          "name": "FacebookIconIcon",
+          "moduleFilePath": "plasmic/mahoe_hemlock/icons/PlasmicIcon__FacebookIcon.jsx"
+        },
+        {
+          "id": "T1b5d8Vlu0V0",
+          "name": "FacebookLogoIcon",
+          "moduleFilePath": "plasmic/mahoe_hemlock/icons/PlasmicIcon__FacebookLogo.jsx"
+        },
+        {
+          "id": "WplHBDBY12ZR",
+          "name": "LogoIcon",
+          "moduleFilePath": "plasmic/mahoe_hemlock/icons/PlasmicIcon__Logo.jsx"
+        },
+        {
+          "id": "moNSIPz-jqw6",
+          "name": "SphereIcon",
+          "moduleFilePath": "plasmic/mahoe_hemlock/icons/PlasmicIcon__Sphere.jsx"
+        },
+        {
+          "id": "dnWONP_mS81J",
+          "name": "QuoteDashesIcon",
+          "moduleFilePath": "plasmic/mahoe_hemlock/icons/PlasmicIcon__QuoteDashes.jsx"
+        },
+        {
+          "id": "-65LwXgP6_km",
+          "name": "TinderLogoIcon",
+          "moduleFilePath": "plasmic/mahoe_hemlock/icons/PlasmicIcon__TinderLogo.jsx"
+        },
+        {
+          "id": "jlxkw5fjcK9Q",
+          "name": "AirbnbLogoIcon",
+          "moduleFilePath": "plasmic/mahoe_hemlock/icons/PlasmicIcon__AirbnbLogo.jsx"
+        },
+        {
+          "id": "PONyPt8q5BHC",
+          "name": "HubspotLogoIcon",
+          "moduleFilePath": "plasmic/mahoe_hemlock/icons/PlasmicIcon__HubspotLogo.jsx"
+        },
+        {
+          "id": "3_xP9iFwTZy3",
+          "name": "AmazonLogoIcon",
+          "moduleFilePath": "plasmic/mahoe_hemlock/icons/PlasmicIcon__AmazonLogo.jsx"
+        },
+        {
+          "id": "JbxaCBBlqCF7",
+          "name": "SwapIcon",
+          "moduleFilePath": "plasmic/mahoe_hemlock/icons/PlasmicIcon__Swap.jsx"
+        },
+        {
+          "id": "fAS_dW1yluHi",
+          "name": "SlotIcon",
+          "moduleFilePath": "plasmic/mahoe_hemlock/icons/PlasmicIcon__Slot.jsx"
+        },
+        {
+          "id": "96nerXpotQ63",
+          "name": "CycleIcon",
+          "moduleFilePath": "plasmic/mahoe_hemlock/icons/PlasmicIcon__Cycle.jsx"
+        },
+        {
+          "id": "XFP2KQiCWplu",
+          "name": "HammerIcon",
+          "moduleFilePath": "plasmic/mahoe_hemlock/icons/PlasmicIcon__Hammer.jsx"
+        },
+        {
+          "id": "lZhrhcf16RAh",
+          "name": "PencilIcon",
+          "moduleFilePath": "plasmic/mahoe_hemlock/icons/PlasmicIcon__Pencil.jsx"
+        },
+        {
+          "id": "wyOmV4QwZPkT",
+          "name": "LightningIcon",
+          "moduleFilePath": "plasmic/mahoe_hemlock/icons/PlasmicIcon__Lightning.jsx"
+        },
+        {
+          "id": "v_CbFuFg7lWN",
+          "name": "RightArrowIcon",
+          "moduleFilePath": "plasmic/mahoe_hemlock/icons/PlasmicIcon__RightArrow.jsx"
+        },
+        {
+          "id": "1D74Rc5uilkK",
+          "name": "Done24Pxsvg2Icon",
+          "moduleFilePath": "plasmic/mahoe_hemlock/icons/PlasmicIcon__Done24Pxsvg2.jsx"
+        },
+        {
+          "id": "hEtHtK2CwHp-",
+          "name": "IconIcon",
+          "moduleFilePath": "plasmic/mahoe_hemlock/icons/PlasmicIcon__Icon.jsx"
+        },
+        {
+          "id": "8GbqJCSTesZ3",
+          "name": "ChecksvgIcon",
+          "moduleFilePath": "plasmic/mahoe_hemlock/icons/PlasmicIcon__Checksvg.jsx"
+        },
+        {
+          "id": "_5b0_PaSe2XV",
+          "name": "SearchsvgIcon",
+          "moduleFilePath": "plasmic/mahoe_hemlock/icons/PlasmicIcon__Searchsvg.jsx"
+        }
+      ],
+      "images": [
+        {
+          "id": "H5920x7D6NuI",
+          "name": "profilepic",
+          "filePath": "../public/plasmic/mahoe_hemlock/images/profilepic.png"
+        },
+        {
+          "id": "UKTod2VfbIph",
+          "name": "task",
+          "filePath": "../public/plasmic/mahoe_hemlock/images/task.png"
+        },
+        {
+          "id": "iZ8VelwDSd9X",
+          "name": "simple-project",
+          "filePath": "../public/plasmic/mahoe_hemlock/images/simpleProject.png"
+        },
+        {
+          "id": "pLxVlhHbl9AT",
+          "name": "hero-image",
+          "filePath": "../public/plasmic/mahoe_hemlock/images/heroImage.png"
+        },
+        {
+          "id": "37Av2Q3_7",
+          "name": "hemlock",
+          "filePath": "../public/plasmic/mahoe_hemlock/images/hemlock.jpeg"
+        }
+      ],
+      "indirect": false,
+      "codeComponents": []
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "VrW6EpkI5jaN",
+        "name": "Screen",
+        "projectId": "jtTxUSUaYyDYVq5FUSGgTb",
+        "contextFilePath": "plasmic/mahoe_hemlock/PlasmicGlobalVariant__Screen.jsx"
+      }
+    ]
+  },
+  "nextjsConfig": {
+    "pagesDir": "../pages"
+  },
+  "cliVersion": "0.1.167",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.167/dist/plasmic.schema.json"
+}
