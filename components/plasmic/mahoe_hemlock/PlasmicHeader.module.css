@@ -90,6 +90,11 @@
   margin-left: 20px;
 }
 @media (min-width: 0px) and (max-width: 768px) {
+  .freeBox__wX0PL {
+    display: none;
+  }
+}
+@media (min-width: 0px) and (max-width: 768px) {
   .freeBox__wX0PL > :global(.__wab_flex-container) {
     margin-left: calc(0px - 16px);
     width: calc(100% + 16px);
@@ -201,6 +206,116 @@
   font-family: "Mate", serif;
 }
 .svg__m2MVu {
+  position: relative;
+  object-fit: cover;
+  width: 24px;
+  height: 24px;
+}
+.freeBox__l6Brj {
+  position: relative;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  min-width: 0;
+  display: none;
+  padding: 0px 8px 8px;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .freeBox__l6Brj {
+    display: flex;
+  }
+}
+.svg__bEIx7 {
+  position: relative;
+  object-fit: cover;
+  width: 24px;
+  height: 24px;
+}
+.text__wYfNl {
+  font-size: 24px;
+  font-family: "Mate", serif;
+}
+.svg__dD64Z {
+  position: relative;
+  object-fit: cover;
+  width: 24px;
+  height: 24px;
+}
+.button__i1Vah:global(.__wab_instance) {
+  position: relative;
+}
+.svg__wjUuf {
+  position: relative;
+  object-fit: cover;
+  width: 24px;
+  height: 24px;
+}
+.text___0Xak {
+  font-size: 24px;
+  font-family: "Mate", serif;
+}
+.svg__shNij {
+  position: relative;
+  object-fit: cover;
+  width: 24px;
+  height: 24px;
+}
+.button__bvT8Y:global(.__wab_instance) {
+  position: relative;
+}
+.svg__qtQjB {
+  position: relative;
+  object-fit: cover;
+  width: 24px;
+  height: 24px;
+}
+.text__j6Er9 {
+  font-size: 24px;
+  font-family: "Mate", serif;
+}
+.svg__anDpW {
+  position: relative;
+  object-fit: cover;
+  width: 24px;
+  height: 24px;
+}
+.button__qimbe:global(.__wab_instance) {
+  position: relative;
+}
+.svg__eGdh {
+  position: relative;
+  object-fit: cover;
+  width: 24px;
+  height: 24px;
+}
+.text__xKk8 {
+  font-size: 24px;
+  font-family: "Mate", serif;
+}
+.svg__tZxQv {
+  position: relative;
+  object-fit: cover;
+  width: 24px;
+  height: 24px;
+}
+.button___82Ml4:global(.__wab_instance) {
+  position: relative;
+}
+.svg__zfNbj {
+  position: relative;
+  object-fit: cover;
+  width: 24px;
+  height: 24px;
+}
+.text__ln2Jl {
+  height: auto;
+  font-size: 24px;
+  font-family: "Mate", serif;
+}
+.svg___6Edfj {
   position: relative;
   object-fit: cover;
   width: 24px;

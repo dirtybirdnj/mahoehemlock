@@ -12,6 +12,7 @@ import * as React from "react";
 import Link from "next/link";
 import * as p from "@plasmicapp/react-web";
 import {
+  hasVariant,
   classNames,
   createPlasmicElementProxy,
   deriveRenderOpts,
@@ -73,93 +74,175 @@ function PlasmicHeader__RenderFunc(props) {
           </p.PlasmicLink>
         </div>
 
-        <p.Stack
-          as={"div"}
-          hasGap={true}
-          className={classNames(projectcss.all, sty.freeBox__wX0PL)}
-        >
-          <Button
-            className={classNames("__wab_instance", sty.button___7XKl)}
-            color={"clear"}
-            link={"/features"}
-            size={"compact"}
+        {(hasVariant(globalVariants, "screen", "mobile") ? true : true) ? (
+          <p.Stack
+            as={"div"}
+            hasGap={true}
+            className={classNames(projectcss.all, sty.freeBox__wX0PL)}
           >
-            <div
-              className={classNames(
-                projectcss.all,
-                projectcss.__wab_text,
-                sty.text__v2Iyi
-              )}
+            <Button
+              className={classNames("__wab_instance", sty.button___7XKl)}
+              color={"clear"}
+              link={"/features"}
+              size={"compact"}
             >
-              {"Catalog"}
-            </div>
-          </Button>
+              <div
+                className={classNames(
+                  projectcss.all,
+                  projectcss.__wab_text,
+                  sty.text__v2Iyi
+                )}
+              >
+                {"Catalog"}
+              </div>
+            </Button>
 
-          <Button
-            className={classNames("__wab_instance", sty.button__byUvM)}
-            color={"clear"}
-            link={"/pricing"}
-            size={"compact"}
-          >
-            <div
-              className={classNames(
-                projectcss.all,
-                projectcss.__wab_text,
-                sty.text___4E3Vt
-              )}
+            <Button
+              className={classNames("__wab_instance", sty.button__byUvM)}
+              color={"clear"}
+              link={"/pricing"}
+              size={"compact"}
             >
-              {"Lookbook"}
-            </div>
-          </Button>
+              <div
+                className={classNames(
+                  projectcss.all,
+                  projectcss.__wab_text,
+                  sty.text___4E3Vt
+                )}
+              >
+                {"Lookbook"}
+              </div>
+            </Button>
 
-          <Button
-            className={classNames("__wab_instance", sty.button__udQ2V)}
-            color={"clear"}
-            size={"compact"}
-          >
-            <div
-              className={classNames(
-                projectcss.all,
-                projectcss.__wab_text,
-                sty.text__thjzR
-              )}
+            <Button
+              className={classNames("__wab_instance", sty.button__udQ2V)}
+              color={"clear"}
+              size={"compact"}
             >
-              {"Woods & Finishes"}
-            </div>
-          </Button>
+              <div
+                className={classNames(
+                  projectcss.all,
+                  projectcss.__wab_text,
+                  sty.text__thjzR
+                )}
+              >
+                {"Woods & Finishes"}
+              </div>
+            </Button>
 
-          <Button
-            className={classNames("__wab_instance", sty.button__l4NpK)}
-            color={"clear"}
-            size={"compact"}
-          >
-            <div
-              className={classNames(
-                projectcss.all,
-                projectcss.__wab_text,
-                sty.text__o5L0P
-              )}
+            <Button
+              className={classNames("__wab_instance", sty.button__l4NpK)}
+              color={"clear"}
+              size={"compact"}
             >
-              {"About"}
-            </div>
-          </Button>
+              <div
+                className={classNames(
+                  projectcss.all,
+                  projectcss.__wab_text,
+                  sty.text__o5L0P
+                )}
+              >
+                {"About"}
+              </div>
+            </Button>
 
-          <Button
-            className={classNames("__wab_instance", sty.button__tbvZ)}
-            color={"clear"}
-            size={"compact"}
-          >
-            <div
-              className={classNames(
-                projectcss.all,
-                projectcss.__wab_text,
-                sty.text___1FnDf
-              )}
+            <Button
+              className={classNames("__wab_instance", sty.button__tbvZ)}
+              color={"clear"}
+              size={"compact"}
             >
-              {"Contact"}
-            </div>
-          </Button>
-        </p.Stack>
+              <div
+                className={classNames(
+                  projectcss.all,
+                  projectcss.__wab_text,
+                  sty.text___1FnDf
+                )}
+              >
+                {"Contact"}
+              </div>
+            </Button>
+          </p.Stack>
+        ) : null}
+        {(hasVariant(globalVariants, "screen", "mobile") ? true : true) ? (
+          <div className={classNames(projectcss.all, sty.freeBox__l6Brj)}>
+            <Button color={"clear"} link={"/features"} size={"compact"}>
+              <div
+                className={classNames(
+                  projectcss.all,
+                  projectcss.__wab_text,
+                  sty.text__wYfNl
+                )}
+              >
+                {"Catalog"}
+              </div>
+            </Button>
+
+            <Button
+              className={classNames("__wab_instance", sty.button__i1Vah)}
+              color={"clear"}
+              link={"/pricing"}
+              size={"compact"}
+            >
+              <div
+                className={classNames(
+                  projectcss.all,
+                  projectcss.__wab_text,
+                  sty.text___0Xak
+                )}
+              >
+                {"Lookbook"}
+              </div>
+            </Button>
+
+            <Button
+              className={classNames("__wab_instance", sty.button__bvT8Y)}
+              color={"clear"}
+              size={"compact"}
+            >
+              <div
+                className={classNames(
+                  projectcss.all,
+                  projectcss.__wab_text,
+                  sty.text__j6Er9
+                )}
+              >
+                {"Woods & Finishes"}
+              </div>
+            </Button>
+
+            <Button
+              className={classNames("__wab_instance", sty.button__qimbe)}
+              color={"clear"}
+              size={"compact"}
+            >
+              <div
+                className={classNames(
+                  projectcss.all,
+                  projectcss.__wab_text,
+                  sty.text__xKk8
+                )}
+              >
+                {"About"}
+              </div>
+            </Button>
+
+            <Button
+              className={classNames("__wab_instance", sty.button___82Ml4)}
+              color={"clear"}
+              size={"compact"}
+            >
+              <div
+                className={classNames(
+                  projectcss.all,
+                  projectcss.__wab_text,
+                  sty.text__ln2Jl
+                )}
+              >
+                {"Contact"}
+              </div>
+            </Button>
+          </div>
+        ) : null}
       </div>
     </div>
   );
