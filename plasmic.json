@@ -263,6 +263,71 @@
           "scheme": "blackbox",
           "componentType": "component",
           "plumeType": "text-input"
+        },
+        {
+          "id": "RG4J4lO0QS",
+          "name": "Catalog",
+          "type": "managed",
+          "projectId": "jtTxUSUaYyDYVq5FUSGgTb",
+          "renderModuleFilePath": "plasmic/mahoe_hemlock/PlasmicCatalog.jsx",
+          "importSpec": {
+            "modulePath": "../pages/catalog.jsx"
+          },
+          "cssFilePath": "plasmic/mahoe_hemlock/PlasmicCatalog.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "zvLW9_WYC3",
+          "name": "Lookbook",
+          "type": "managed",
+          "projectId": "jtTxUSUaYyDYVq5FUSGgTb",
+          "renderModuleFilePath": "plasmic/mahoe_hemlock/PlasmicLookbook.jsx",
+          "importSpec": {
+            "modulePath": "../pages/lookbook.jsx"
+          },
+          "cssFilePath": "plasmic/mahoe_hemlock/PlasmicLookbook.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "mJAlwDK4rl",
+          "name": "Finishes",
+          "type": "managed",
+          "projectId": "jtTxUSUaYyDYVq5FUSGgTb",
+          "renderModuleFilePath": "plasmic/mahoe_hemlock/PlasmicFinishes.jsx",
+          "importSpec": {
+            "modulePath": "../pages/finishes.jsx"
+          },
+          "cssFilePath": "plasmic/mahoe_hemlock/PlasmicFinishes.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "pC06KJurrI",
+          "name": "About",
+          "type": "managed",
+          "projectId": "jtTxUSUaYyDYVq5FUSGgTb",
+          "renderModuleFilePath": "plasmic/mahoe_hemlock/PlasmicAbout.jsx",
+          "importSpec": {
+            "modulePath": "../pages/about.jsx"
+          },
+          "cssFilePath": "plasmic/mahoe_hemlock/PlasmicAbout.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
+        },
+        {
+          "id": "ER4Q0HIfKZ",
+          "name": "Contact",
+          "type": "managed",
+          "projectId": "jtTxUSUaYyDYVq5FUSGgTb",
+          "renderModuleFilePath": "plasmic/mahoe_hemlock/PlasmicContact.jsx",
+          "importSpec": {
+            "modulePath": "../pages/contact.jsx"
+          },
+          "cssFilePath": "plasmic/mahoe_hemlock/PlasmicContact.module.css",
+          "scheme": "blackbox",
+          "componentType": "page"
         }
       ],
       "icons": [
@@ -402,6 +467,26 @@
           "id": "37Av2Q3_7",
           "name": "hemlock",
           "filePath": "../public/plasmic/mahoe_hemlock/images/hemlock.jpeg"
+        },
+        {
+          "id": "vvk_9cV8f",
+          "name": "logs",
+          "filePath": "../public/plasmic/mahoe_hemlock/images/logs.jpeg"
+        },
+        {
+          "id": "CHG9KBWyj",
+          "name": "cat",
+          "filePath": "../public/plasmic/mahoe_hemlock/images/cat.jpeg"
+        },
+        {
+          "id": "0vcabeCX9",
+          "name": "looking-out-windws",
+          "filePath": "../public/plasmic/mahoe_hemlock/images/lookingOutWindws.jpeg"
+        },
+        {
+          "id": "L8zhr-o6z",
+          "name": "books-open",
+          "filePath": "../public/plasmic/mahoe_hemlock/images/booksOpen.jpeg"
         }
       ],
       "indirect": false,
