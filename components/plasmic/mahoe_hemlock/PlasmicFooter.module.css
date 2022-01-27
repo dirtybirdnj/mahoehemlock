@@ -26,9 +26,9 @@
   margin-top: 32px;
 }
 .freeBox___9Vc6A {
-  display: flex;
   position: relative;
   flex-direction: row;
+  display: none;
 }
 .freeBox___9Vc6A > :global(.__wab_flex-container) {
   flex-direction: row;

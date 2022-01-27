@@ -45,41 +45,43 @@ function PlasmicFooter__RenderFunc(props) {
       hasGap={true}
       className={classNames(projectcss.all, projectcss.root_reset, sty.root)}
     >
-      <p.Stack
-        as={"div"}
-        hasGap={true}
-        className={classNames(projectcss.all, sty.freeBox___9Vc6A)}
-      >
-        <IconLink
-          className={classNames("__wab_instance", sty.iconLink__ynVei)}
-          icon={
-            <TwitterIconIcon
-              className={classNames(projectcss.all, sty.svg__h0Prs)}
-              role={"img"}
-            />
-          }
-        />
+      {true ? (
+        <p.Stack
+          as={"div"}
+          hasGap={true}
+          className={classNames(projectcss.all, sty.freeBox___9Vc6A)}
+        >
+          <IconLink
+            className={classNames("__wab_instance", sty.iconLink__ynVei)}
+            icon={
+              <TwitterIconIcon
+                className={classNames(projectcss.all, sty.svg__h0Prs)}
+                role={"img"}
+              />
+            }
+          />
 
-        <IconLink
-          className={classNames("__wab_instance", sty.iconLink__bqJlh)}
-          icon={
-            <GithubIconIcon
-              className={classNames(projectcss.all, sty.svg__i0W4O)}
-              role={"img"}
-            />
-          }
-        />
+          <IconLink
+            className={classNames("__wab_instance", sty.iconLink__bqJlh)}
+            icon={
+              <GithubIconIcon
+                className={classNames(projectcss.all, sty.svg__i0W4O)}
+                role={"img"}
+              />
+            }
+          />
 
-        <IconLink
-          className={classNames("__wab_instance", sty.iconLink__dehMg)}
-          icon={
-            <FacebookIconIcon
-              className={classNames(projectcss.all, sty.svg__hEsxE)}
-              role={"img"}
-            />
-          }
-        />
-      </p.Stack>
+          <IconLink
+            className={classNames("__wab_instance", sty.iconLink__dehMg)}
+            icon={
+              <FacebookIconIcon
+                className={classNames(projectcss.all, sty.svg__hEsxE)}
+                role={"img"}
+              />
+            }
+          />
+        </p.Stack>
+      ) : null}
 
       <p.Stack
         as={"div"}
