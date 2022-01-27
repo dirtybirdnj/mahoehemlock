@@ -211,19 +211,6 @@
           "componentType": "component"
         },
         {
-          "id": "KQ0hdguFulQL",
-          "name": "Features",
-          "type": "managed",
-          "projectId": "jtTxUSUaYyDYVq5FUSGgTb",
-          "renderModuleFilePath": "plasmic/mahoe_hemlock/PlasmicFeatures.jsx",
-          "importSpec": {
-            "modulePath": "../pages/features.jsx"
-          },
-          "cssFilePath": "plasmic/mahoe_hemlock/PlasmicFeatures.module.css",
-          "scheme": "blackbox",
-          "componentType": "page"
-        },
-        {
           "id": "NrFsSA9C4dbE",
           "name": "Section",
           "type": "managed",

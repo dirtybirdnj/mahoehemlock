@@ -83,7 +83,7 @@ function PlasmicHeader__RenderFunc(props) {
             <Button
               className={classNames("__wab_instance", sty.button___7XKl)}
               color={"clear"}
-              link={"/features"}
+              link={"/catalog"}
               size={"compact"}
             >
               <div
@@ -100,7 +100,7 @@ function PlasmicHeader__RenderFunc(props) {
             <Button
               className={classNames("__wab_instance", sty.button__byUvM)}
               color={"clear"}
-              link={"/pricing"}
+              link={"/lookbook"}
               size={"compact"}
             >
               <div
@@ -117,6 +117,7 @@ function PlasmicHeader__RenderFunc(props) {
             <Button
               className={classNames("__wab_instance", sty.button__udQ2V)}
               color={"clear"}
+              link={"/finishes"}
               size={"compact"}
             >
               <div
@@ -133,6 +134,7 @@ function PlasmicHeader__RenderFunc(props) {
             <Button
               className={classNames("__wab_instance", sty.button__l4NpK)}
               color={"clear"}
+              link={"/about"}
               size={"compact"}
             >
               <div
@@ -149,6 +151,7 @@ function PlasmicHeader__RenderFunc(props) {
             <Button
               className={classNames("__wab_instance", sty.button__tbvZ)}
               color={"clear"}
+              link={"/contact"}
               size={"compact"}
             >
               <div
@@ -165,7 +168,7 @@ function PlasmicHeader__RenderFunc(props) {
         ) : null}
         {(hasVariant(globalVariants, "screen", "mobile") ? true : true) ? (
           <div className={classNames(projectcss.all, sty.freeBox__l6Brj)}>
-            <Button color={"clear"} link={"/features"} size={"compact"}>
+            <Button color={"clear"} size={"compact"}>
               <div
                 className={classNames(
                   projectcss.all,
