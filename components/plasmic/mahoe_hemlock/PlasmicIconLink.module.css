@@ -14,18 +14,18 @@
   height: 100%;
   box-shadow: 1px 2px 2px 1px rgb(234, 234, 234)
     /* plasmic-token: hGt49AQ9Q0Zp */;
-  background: rgb(255, 255, 255);
+  background: #ffffff00;
   min-width: 0;
   min-height: 0;
-  border-radius: 16px;
+  border-radius: 0px;
 }
 .slotTargetIcon {
-  color: rgb(24, 25, 26) /* plasmic-token: dph1wZ7NjV9 */;
+  color: rgb(255, 255, 255) /* plasmic-token: IhjqPbG3twGe */;
 }
 .svg__ghj7N {
   position: relative;
   object-fit: cover;
-  color: rgb(101, 103, 107) /* plasmic-token: vaTuh5tFL3B */;
+  color: rgb(255, 255, 255) /* plasmic-token: IhjqPbG3twGe */;
   width: 32px;
   height: 32px;
   flex-shrink: 0;

@@ -54,36 +54,54 @@ function PlasmicLookbook__RenderFunc(props) {
             sty.root
           )}
         >
-          <div
-            data-plasmic-name={"freeBox"}
-            data-plasmic-override={overrides.freeBox}
-            className={classNames(projectcss.all, sty.freeBox)}
-          >
+          <div className={classNames(projectcss.all, sty.freeBox___5LpHa)}>
             <Header
               data-plasmic-name={"header"}
               data-plasmic-override={overrides.header}
               className={classNames("__wab_instance", sty.header)}
             />
 
-            <p.PlasmicImg
-              data-plasmic-name={"img"}
-              data-plasmic-override={overrides.img}
-              alt={""}
-              className={classNames(sty.img)}
-              displayHeight={"500px"}
-              displayMaxHeight={"none"}
-              displayMaxWidth={"none"}
-              displayMinHeight={"0"}
-              displayMinWidth={"0"}
-              displayWidth={"auto"}
-              loading={"lazy"}
-              src={{
-                src: "/plasmic/mahoe_hemlock/images/booksOpen.jpeg",
-                fullWidth: 2730,
-                fullHeight: 4096,
-                aspectRatio: undefined
-              }}
-            />
+            {true ? (
+              <div className={classNames(projectcss.all, sty.freeBox__qLex)}>
+                {true ? (
+                  <p.PlasmicImg
+                    alt={""}
+                    className={classNames(sty.img___2Emxm)}
+                    displayHeight={"auto"}
+                    displayMaxHeight={"none"}
+                    displayMaxWidth={"none"}
+                    displayMinHeight={"0"}
+                    displayMinWidth={"0"}
+                    displayWidth={"auto"}
+                    loading={"lazy"}
+                    src={{
+                      src: "/plasmic/mahoe_hemlock/images/booksOpen.jpeg",
+                      fullWidth: 2730,
+                      fullHeight: 4096,
+                      aspectRatio: undefined
+                    }}
+                  />
+                ) : null}
+
+                <p.PlasmicImg
+                  alt={""}
+                  className={classNames(sty.img__lW2N)}
+                  displayHeight={"auto"}
+                  displayMaxHeight={"none"}
+                  displayMaxWidth={"none"}
+                  displayMinHeight={"0"}
+                  displayMinWidth={"0"}
+                  displayWidth={"580px"}
+                  loading={"lazy"}
+                  src={{
+                    src: "/plasmic/mahoe_hemlock/images/booksOpen.jpeg",
+                    fullWidth: 2730,
+                    fullHeight: 4096,
+                    aspectRatio: undefined
+                  }}
+                />
+              </div>
+            ) : null}
 
             <Footer
               data-plasmic-name={"footer"}
@@ -98,10 +116,8 @@ function PlasmicLookbook__RenderFunc(props) {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "freeBox", "header", "img", "footer"],
-  freeBox: ["freeBox", "header", "img", "footer"],
+  root: ["root", "header", "footer"],
   header: ["header"],
-  img: ["img"],
   footer: ["footer"]
 };
 
@@ -134,9 +150,7 @@ export const PlasmicLookbook = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
-    freeBox: makeNodeComponent("freeBox"),
     header: makeNodeComponent("header"),
-    img: makeNodeComponent("img"),
     footer: makeNodeComponent("footer"),
     // Metadata about props expected for PlasmicLookbook
     internalVariantProps: PlasmicLookbook__VariantProps,
