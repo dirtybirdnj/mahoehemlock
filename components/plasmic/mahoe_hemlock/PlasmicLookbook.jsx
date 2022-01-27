@@ -70,7 +70,7 @@ function PlasmicLookbook__RenderFunc(props) {
               data-plasmic-override={overrides.img}
               alt={""}
               className={classNames(sty.img)}
-              displayHeight={"1000px"}
+              displayHeight={"500px"}
               displayMaxHeight={"none"}
               displayMaxWidth={"none"}
               displayMinHeight={"0"}

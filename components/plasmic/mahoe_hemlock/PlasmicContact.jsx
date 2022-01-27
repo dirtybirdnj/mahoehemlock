@@ -78,9 +78,9 @@ function PlasmicContact__RenderFunc(props) {
               displayWidth={"auto"}
               loading={"lazy"}
               src={{
-                src: "/plasmic/mahoe_hemlock/images/hemlock.jpeg",
+                src: "/plasmic/mahoe_hemlock/images/dontBeAStranger.jpeg",
                 fullWidth: 4096,
-                fullHeight: 2730,
+                fullHeight: 2304,
                 aspectRatio: undefined
               }}
             />

@@ -54,36 +54,50 @@ function PlasmicCatalog__RenderFunc(props) {
             sty.root
           )}
         >
-          <div
-            data-plasmic-name={"freeBox"}
-            data-plasmic-override={overrides.freeBox}
-            className={classNames(projectcss.all, sty.freeBox)}
-          >
+          <div className={classNames(projectcss.all, sty.freeBox__aq5XB)}>
             <Header
               data-plasmic-name={"header"}
               data-plasmic-override={overrides.header}
               className={classNames("__wab_instance", sty.header)}
             />
 
-            <p.PlasmicImg
-              data-plasmic-name={"img"}
-              data-plasmic-override={overrides.img}
-              alt={""}
-              className={classNames(sty.img)}
-              displayHeight={"auto"}
-              displayMaxHeight={"none"}
-              displayMaxWidth={"100%"}
-              displayMinHeight={"0"}
-              displayMinWidth={"0"}
-              displayWidth={"auto"}
-              loading={"lazy"}
-              src={{
-                src: "/plasmic/mahoe_hemlock/images/hemlock.jpeg",
-                fullWidth: 4096,
-                fullHeight: 2730,
-                aspectRatio: undefined
-              }}
-            />
+            <div className={classNames(projectcss.all, sty.freeBox__wrAKd)}>
+              <p.PlasmicImg
+                alt={""}
+                className={classNames(sty.img__izIt6)}
+                displayHeight={"auto"}
+                displayMaxHeight={"none"}
+                displayMaxWidth={"50%"}
+                displayMinHeight={"0"}
+                displayMinWidth={"0"}
+                displayWidth={"auto"}
+                loading={"lazy"}
+                src={{
+                  src: "/plasmic/mahoe_hemlock/images/cat.jpeg",
+                  fullWidth: 2965,
+                  fullHeight: 4096,
+                  aspectRatio: undefined
+                }}
+              />
+
+              <p.PlasmicImg
+                alt={""}
+                className={classNames(sty.img__y9FeC)}
+                displayHeight={"auto"}
+                displayMaxHeight={"none"}
+                displayMaxWidth={"50%"}
+                displayMinHeight={"0"}
+                displayMinWidth={"0"}
+                displayWidth={"auto"}
+                loading={"lazy"}
+                src={{
+                  src: "/plasmic/mahoe_hemlock/images/logs.jpeg",
+                  fullWidth: 4096,
+                  fullHeight: 2730,
+                  aspectRatio: undefined
+                }}
+              />
+            </div>
 
             <Footer
               data-plasmic-name={"footer"}
@@ -98,10 +112,8 @@ function PlasmicCatalog__RenderFunc(props) {
 }
 
 const PlasmicDescendants = {
-  root: ["root", "freeBox", "header", "img", "footer"],
-  freeBox: ["freeBox", "header", "img", "footer"],
+  root: ["root", "header", "footer"],
   header: ["header"],
-  img: ["img"],
   footer: ["footer"]
 };
 
@@ -134,9 +146,7 @@ export const PlasmicCatalog = Object.assign(
   makeNodeComponent("root"),
   {
     // Helper components rendering sub-elements
-    freeBox: makeNodeComponent("freeBox"),
     header: makeNodeComponent("header"),
-    img: makeNodeComponent("img"),
     footer: makeNodeComponent("footer"),
     // Metadata about props expected for PlasmicCatalog
     internalVariantProps: PlasmicCatalog__VariantProps,

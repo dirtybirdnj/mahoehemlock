@@ -61,7 +61,7 @@
   z-index: 1;
   align-self: auto;
   width: auto;
-  height: 1000px;
+  height: 500px;
   flex-shrink: 0;
 }
 .img > picture > img {

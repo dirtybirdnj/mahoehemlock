@@ -487,6 +487,11 @@
           "id": "L8zhr-o6z",
           "name": "books-open",
           "filePath": "../public/plasmic/mahoe_hemlock/images/booksOpen.jpeg"
+        },
+        {
+          "id": "gGOc3joFb",
+          "name": "dont-be-a-stranger",
+          "filePath": "../public/plasmic/mahoe_hemlock/images/dontBeAStranger.jpeg"
         }
       ],
       "indirect": false,

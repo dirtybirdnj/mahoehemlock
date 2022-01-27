@@ -54,14 +54,20 @@
 }
 .img {
   position: relative;
-  object-fit: cover;
+  object-fit: scale-down;
   max-width: 100%;
+  object-position: center center;
+  left: auto;
+  top: auto;
+  z-index: 1;
 }
 .img > picture > img {
-  object-fit: cover;
+  object-fit: scale-down;
+  object-position: center center;
 }
 .img > .__wab_img-spacer > img {
-  object-fit: cover;
+  object-fit: scale-down;
+  object-position: center center;
 }
 .footer:global(.__wab_instance) {
   position: relative;

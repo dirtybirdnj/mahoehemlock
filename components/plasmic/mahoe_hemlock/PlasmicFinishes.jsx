@@ -78,7 +78,7 @@ function PlasmicFinishes__RenderFunc(props) {
               displayWidth={"auto"}
               loading={"lazy"}
               src={{
-                src: "/plasmic/mahoe_hemlock/images/hemlock.jpeg",
+                src: "/plasmic/mahoe_hemlock/images/logs.jpeg",
                 fullWidth: 4096,
                 fullHeight: 2730,
                 aspectRatio: undefined

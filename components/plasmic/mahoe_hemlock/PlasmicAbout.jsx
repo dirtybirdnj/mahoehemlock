@@ -78,7 +78,7 @@ function PlasmicAbout__RenderFunc(props) {
               displayWidth={"auto"}
               loading={"lazy"}
               src={{
-                src: "/plasmic/mahoe_hemlock/images/hemlock.jpeg",
+                src: "/plasmic/mahoe_hemlock/images/lookingOutWindws.jpeg",
                 fullWidth: 4096,
                 fullHeight: 2730,
                 aspectRatio: undefined
@@ -95,7 +95,7 @@ function PlasmicAbout__RenderFunc(props) {
               )}
             >
               {
-                "Very well, where do I begin? My father was a relentlessly self-improving boulangerie owner from Belgium with low grade narcolepsy and a penchant for buggery. My mother was a fifteen year-old French prostitute named Chloe with webbed feet.\n\nMy father would womanize, he would drink. He would make outrageous claims like he invented the question mark. Sometimes, he would accuse chestnuts of being lazy. The sort of general malaise that only the genius possess and the insane lament.\n\nMy childhood was typical. Summers in Rangoon, luge lessons. In the spring, we’d make meat helmets.\n\nWhen I was insolent, I was placed in a burlap bag and beaten with reeds – pretty standard, really. At the age of twelve, I received my first scribe.\n\nAt the age of fourteen, a Zoroastrian named Vilma ritualistically shaved my testicles. At the age of 18, I went off to evil medical school. At the age of 25, I took up tap dancing. I wanted to be a quadruple threat — an actor, dancer…\n\n"
+                "Very well, where do I begin? My father was a relentlessly self-improving boulangerie owner from Belgium with low grade narcolepsy and a penchant for buggery. My mother was a fifteen year-old French prostitute named Chloe with webbed feet.\n\nMy father would womanize, he would drink. He would make outrageous claims like he invented the question mark. Sometimes, he would accuse chestnuts of being lazy. The sort of general malaise that only the genius possess and the insane lament.\n\nMy childhood was typical. Summers in Rangoon, luge lessons. In the spring, we’d make meat helmets.\n\nWhen I was insolent, I was placed in a burlap bag and beaten with reeds – pretty standard, really. At the age of twelve, I received my first scribe.\n\nAt the age of fourteen, a Zoroastrian named Vilma ritualistically shaved my testicles. At the age of 18, I went off to evil medical school. At the age of 25, I took up tap dancing. I wanted to be a quadruple threat — an actor, dancer…"
               }
             </div>
 
